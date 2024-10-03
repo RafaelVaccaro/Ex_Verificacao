@@ -1,5 +1,7 @@
 package application;
 
+import java.util.function.UnaryOperator;
+
 public abstract class Usuario implements Verificacao {
     protected String nome;
     protected String cpf;
@@ -10,6 +12,4 @@ public abstract class Usuario implements Verificacao {
         this.cpf = cpf;
         this.senha = senha;
     }
-
-
 }
