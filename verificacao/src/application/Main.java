@@ -10,5 +10,7 @@ public class Main {
         rafael.verificarIdentidade(618254, "Rafa240904*");
         lucas.verificarIdentidade("1122334455", "123456789");
 
+        VerificationService.verify(rafael, "Rafa240904");
+        VerificationService.verify(lucas, "123456789");
     }
 }
